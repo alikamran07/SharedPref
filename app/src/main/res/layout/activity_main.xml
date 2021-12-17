@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:text="Register Yourself"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="15pt"
+        />
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10pt"
+        android:hint="Enter the Name"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10pt"
+        android:hint="Enter the Name"
+        ></EditText>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:text="Submit"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        />
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:text="Clear At Once"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        />
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:text="Share with"
+        android:layout_marginLeft="10pt"
+        android:layout_marginRight="10pt"
+        />
+
+
+</LinearLayout>
